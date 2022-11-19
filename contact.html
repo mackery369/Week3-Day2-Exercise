@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Third Web Page</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+        <!-- Container to wrap everything -->
+        <div id="container">
+            <!-- Brand of website -->
+            <header style="font-size: 60px; color: #fff;">My Web Site Brand</header> <!-- Inline CSS method -->
+            <!-- Main navigation -->
+    <nav></nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul> <!-- End main navigation -->
+    <!-- Main content -->
+    <main>
+        <h1>My third heading</h1>
+        <p>My third paragraph</p>
+        <form action="/signup" method="post">
+            <fieldset>
+                <legend>User Personal Information</legend>
+                <label>Enter your full name</label>
+                <input type="text" name="name">
+                <label>Enter your email</label>
+                <input type="email" name="email">
+                <label>Enter your phone</label>
+                <input type="text" name="phone">
+                <br><label>Select your gender</label>
+                <input type="radio" name="gender" value="male"/>Male
+                <input type="radio" name="gender" value="female"/>Female
+                <br><label>How should we contact you?</label>
+                <select>
+                    <option>Email</option>
+                    <option>Phone</option>
+                </select>
+                <label>Tell us the reason of your visit today:</label>
+                <textarea rows="5" cols="30"></textarea><br>
+                <input type="submit" value="sign-up">
+            </fieldset>
+        </form>
+    </main> <!-- End main content -->
+
+    <!-- Footer information -->
+    <footer>&copy; Copywrite 2020</footer>
+
+    </div> <!-- End container-->
+
+</body>
+</html>
